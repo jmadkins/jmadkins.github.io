@@ -1,17 +1,13 @@
 name: Justin Adkins
-title: Software Development/Engineer
 email: justin.adkins@protonmail.com
-location: Columbus, OH
+location: Columbus, OH USA
+github_username: jmadkins
+twitter_username: hijustinadkins
 about_me: >-
-  I’m a full-stack developer who primarily works with Microsoft technologies
-  but is eager to branch out and expand into new territory and opportunities.
-  Being almost entirely self-taught, I was given extraordinary opportunities
-  to learn and grow my skills over the past couple of years. During that time,
-  I’ve been able to become a better developer, and de- velop a passion for delivering
-  solutions of the highest quality and to the satisfaction of the customer.
+  Developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
+  Started with C# but have fallen in love with ruby.
 baseurl: ""
 url: "https://adkinss.io"
-github_username: jmadkins
 
 # Build settings
 markdown: kramdown

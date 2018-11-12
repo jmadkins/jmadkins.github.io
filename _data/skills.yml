@@ -33,19 +33,19 @@
     - Microsoft SQL
     - PostgreSQL
     - MySQL
-    - Redit
+    - Redis
 
 - title: Version Control
   items:
     - Git
     - Team Foundation Version Control
 
-- title: Technologies, libraries, tools and services
+- title: Technologies, tools, and services
   items:
     - Entity Framework
     - Splunk
     - AppDynamics
-    - Service-Now
+    - ServiceNow
     - JIRA
     - SendGrid
 

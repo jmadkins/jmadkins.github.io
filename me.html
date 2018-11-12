@@ -5,71 +5,108 @@ layout: default
 
 <div class="row">
   <div class="col-md-3 col-sm-5">
-    <img class="img-thumbnail" src="/images/me.jpg">
-    <ul class="list-unstyled">
-      <li>
-        <i class="fal fa-building fa-fw"></i>
-        Co-owner of <a href="https://www.mythcoders.com" target="_blank">MythCoders</a>
-      </li>
-      <li>
-        <i class="fal fa-building fa-fw"></i>
-        Software Developer at
-        <a href="https://www.covermymeds.com" target="_blank">CoverMyMeds</a>
-      </li>
-      <li>
-        <i class="fal fa-map-marker-alt fa-fw"></i>
-        Columbus, OH
-      </li>
-      <li>
-        <i class="fal fa-envelope fa-fw"></i>
-        <a href="mailto:justin.adkins@mythcoders.com">justin.adkins@mythcoders.com</a>
-      </li>
-      <li>
-        <i class="fab fa-github fa-fw"></i>
-        <a href="http://github.com/jmadkins" target="_blank">jmadkins</a>
-      </li>
-    </ul>
-
-    <h3>My Skills</h3>
-    {% for skill in site.data.skills %}
-      <strong>{{ skill.title }}</strong>
-      <ul class="list-inline">
-        {% for item in skill.items %}
-          <li class="list-inline-item">{{ item }}</li>
-        {% endfor %}
+    <div class="card">
+      <img class="card-img-top" src="/images/me.jpg">
+      <div class="card-body">
+        <p class="card-text">
+          {{ site.about_me }}
+          <i class="fab fa-empire"></i>
+        </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" style="padding-left: 7px;">
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li" ><i class="fal fa-building"></i></span>
+              Co-owner & CIO
+              <br />
+              <strong>
+                <a href="https://www.mythcoders.com" target="_blank">MythCoders</a>
+              </strong>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fal fa-building"></i></span>
+              Developer
+              <br/>
+              <strong>
+                <a href="https://www.covermymeds.com" target="_blank">CoverMyMeds</a>
+              </strong>
+            </li>
+          </ul>
+        </li>
+        <li class="list-group-item">
+          <i class="fal fa-map-marker-alt fa-fw"></i>
+          {{ site.location }}
+        </li>
+        <li class="list-group-item" style="padding-right: 7px;">
+          <i class="fal fa-envelope fa-fw"></i>
+          <a href="mailto:{{ site.email }}">
+            {{ site.email }}
+          </a>
+        </li>
+        <li class="list-group-item">
+          <i class="fab fa-github fa-fw"></i>
+          <a href="http://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>
+        </li>
+        <li class="list-group-item">
+          <i class="fab fa-twitter fa-fw"></i>
+          <a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">{{ site.twitter_username }}</a>
+        </li>
       </ul>
-    {% endfor %}
+    </div>
+    <br />
   </div>
   <div class="col-md-9 col-sm-7">
-    <h3>Job Experience</h3>
-    {% for job in site.data.jobs %}
-      <div class="card">
-        <h4 class="card-header">{{ job.company }}</h4>
-        <div class="card-body">
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <i class="fal fa-user fa-fw"></i>
-              {{ job.position }}
-            </li>
-            <li class="list-inline-item">
-              <i class="fal fa-calendar-alt fa-fw"></i>
-              {{ job.start }} - {{ job.end }}
-            </li>
-            <li class="list-inline-item">
-              <i class="fal fa-map-marker-alt fa-fw"></i>
-              {{ job.location }}
-            </li>
-          </ul>
+    <ul class="nav nav-tabs padded-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="job-tab" data-toggle="tab" href="#job" role="tab" aria-controls="job" aria-selected="false">Job Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill" aria-selected="true">Skills</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="job" role="tabpanel" aria-labelledby="job-tab">
+        {% for job in site.data.jobs %}
+          <div class="card">
+            <h5 class="card-header">{{ job.company }}</h5>
+            <div class="card-body">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <i class="fal fa-user fa-fw"></i>
+                  {{ job.position }}
+                </li>
+                <li class="list-inline-item">
+                  <i class="fal fa-calendar-alt fa-fw"></i>
+                  {{ job.start }} - {{ job.end }}
+                </li>
+                <li class="list-inline-item">
+                  <i class="fal fa-map-marker-alt fa-fw"></i>
+                  {{ job.location }}
+                </li>
+              </ul>
 
-          <h5>Responsibilities</h5>
-          <ul>
-            {% for item in job.responsibilities %}
-              <li>{{ item }}</li>
+              <h5 class="card-title">Responsibilities</h5>
+              <ul>
+                {% for item in job.responsibilities %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <br />
+        {% endfor %}
+      </div>
+      <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+        {% for skill in site.data.skills %}
+          <strong>{{ skill.title }}</strong>
+          <ul class="list-inline">
+            {% for item in skill.items %}
+              <li class="list-inline-item">{{ item }}</li>
             {% endfor %}
           </ul>
-        </div>
+        {% endfor %}
       </div>
-      <br />
-    {% endfor %}
+    </div>
   </div>
 </div>
