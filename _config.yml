@@ -1,0 +1,29 @@
+name: Justin Adkins
+title: Software Development/Engineer
+email: justin.adkins@protonmail.com
+location: Columbus, OH
+about_me: >-
+  I’m a full-stack developer who primarily works with Microsoft technologies
+  but is eager to branch out and expand into new territory and opportunities.
+  Being almost entirely self-taught, I was given extraordinary opportunities
+  to learn and grow my skills over the past couple of years. During that time,
+  I’ve been able to become a better developer, and de- velop a passion for delivering
+  solutions of the highest quality and to the satisfaction of the customer.
+baseurl: ""
+url: "https://adkinss.io"
+github_username: jmadkins
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
