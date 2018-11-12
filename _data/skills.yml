@@ -1,0 +1,55 @@
+- title: "Languages"
+  items:
+    - Ruby
+    - C#
+    - PowerShell
+    - C++
+
+- title: Frameworks
+  items:
+    - Ruby-on-Rails
+    - .Net (Core, Standard, Full)
+    - ASP.Net (MVC & Web API)
+
+- title: Web design and management
+  items:
+    - HTML
+    - CSS/LESS/SASS
+    - JavaScript
+    - jQuery
+    - REST/SOAP
+    - HAML
+    - DNS
+
+- title: Infrastructure
+  items:
+    - Azure
+    - Digital Ocean
+    - Heroku
+    - Amazon Web Services
+
+- title: Data
+  items:
+    - Microsoft SQL
+    - PostgreSQL
+    - MySQL
+    - Redit
+
+- title: Version Control
+  items:
+    - Git
+    - Team Foundation Version Control
+
+- title: Technologies, libraries, tools and services
+  items:
+    - Entity Framework
+    - Splunk
+    - AppDynamics
+    - Service-Now
+    - JIRA
+    - SendGrid
+
+- title: Digital and print design
+  items:
+    - InDesign
+    - Photoshop

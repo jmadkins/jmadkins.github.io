@@ -1,0 +1,21 @@
+- company: CoverMyMeds
+  position: Software Developer
+  start: May 2018
+  end: Present
+  location: Columbus, OH
+  responsibilities:
+    - Review code changes of fellow developers. Reviewed seperately for code quality and risk analysis.
+
+- company: Ohio Department of Public Safety
+  position: Software Development Specialist 1-4
+  start: Nov 2013
+  end: May 2018
+  location: Columbus, OH
+  responsibilities:
+    - Gather requirements, architect, and implement enterprise-level systems. Systems included multiple applications on internal and external networks that were used by people throughout the department and State of Ohio, respectively. All systems followed a department template and stuck to defined standards.
+    - Rewrite legacy systems into efficient modern systems using the latest de- partment standards. Attempt to simplify process workflows and automate manual tasks performed by employees as much as possible.
+    - Provide customer support to internal users and external customers who consumed Public Safety’s online services.
+    - Mentor fellow developers and interns, delegate and prioritize their tasks, track their progress and review their final products on a daily basis.
+    - Lead a team of full-time developers and consultants, under the direction of my supervisor, to solve problems that were thrown our way.
+    - Monitoring, troubleshooting, and resolution of production issues using department software such as Splunk and AppDynamics.
+    - Research and recommend technologies for wider adoption among the IT department.
