@@ -1,8 +1,7 @@
 - title: "Languages"
   items:
     - Ruby
-    - "C#"
-    - JavaScript
+    - C#
     - PowerShell
     - C++
 
@@ -12,42 +11,45 @@
     - .Net (Core, Standard, Full)
     - ASP.Net (MVC & Web API)
 
-- title: Web Design
+- title: Web design and management
   items:
     - HTML
-    - CSS
-    - LESS/SASS
+    - CSS/LESS/SASS
+    - JavaScript
     - jQuery
+    - REST/SOAP
+    - HAML
+    - DNS
 
 - title: Infrastructure
   items:
     - Azure
+    - Digital Ocean
     - Heroku
     - Amazon Web Services
 
-- title: Databases
+- title: Data
   items:
     - Microsoft SQL
     - PostgreSQL
     - MySQL
+    - Redit
 
 - title: Version Control
   items:
     - Git
     - Team Foundation Version Control
 
-- title: Technologies, Libraries, tools and services
+- title: Technologies, libraries, tools and services
   items:
     - Entity Framework
-    - Redis
-    - REST
-    - SOAP
-    - HAML
     - Splunk
     - AppDynamics
     - Service-Now
     - JIRA
     - SendGrid
-    - DNS
+
+- title: Digital and print design
+  items:
     - InDesign
     - Photoshop

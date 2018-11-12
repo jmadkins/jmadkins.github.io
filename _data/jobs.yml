@@ -2,15 +2,15 @@
   position: Software Developer
   start: May 2018
   end: Present
+  location: Columbus, OH
   responsibilities:
-    - Gather requirements, architect, and implement enterprise-level systems. Systems included multiple applications on internal and external networks that were used by people throughout the department and State of Ohio, respectively. All systems followed a department template and stuck to defined standards.
-  projects:
-    - Driver License System as architect and lead developer
+    - Review code changes of fellow developers. Reviewed seperately for code quality and risk analysis.
 
 - company: Ohio Department of Public Safety
   position: Software Development Specialist 1-4
   start: Nov 2013
   end: May 2018
+  location: Columbus, OH
   responsibilities:
     - Gather requirements, architect, and implement enterprise-level systems. Systems included multiple applications on internal and external networks that were used by people throughout the department and State of Ohio, respectively. All systems followed a department template and stuck to defined standards.
     - Rewrite legacy systems into efficient modern systems using the latest de- partment standards. Attempt to simplify process workflows and automate manual tasks performed by employees as much as possible.
@@ -19,18 +19,3 @@
     - Lead a team of full-time developers and consultants, under the direction of my supervisor, to solve problems that were thrown our way.
     - Monitoring, troubleshooting, and resolution of production issues using department software such as Splunk and AppDynamics.
     - Research and recommend technologies for wider adoption among the IT department.
-  projects:
-    - Driver License System as architect and lead developer
-    - BMV Finance System as architect and lead developer
-    - BMV Reporting System as architect and lead developer
-    - BMV Lookup System as architect and lead developer
-    - BMV File Process System as architect and lead developer
-    - Dealer Licensing System as architect and lead developer
-    - Image Retrieval and Indexing System as architect
-    - Common Name and Address System as a contributor
-    - Proof Filling and Proof Cancellation as lead developer
-    - BMV Online Services and OPLATES as a contributor
-    - Tax Distribution System as a contributor
-    - Identity Manager as a contributor
-    - Centralized Email Service for Applications as contributor
-    - BMV Invoicing System as a contributor
