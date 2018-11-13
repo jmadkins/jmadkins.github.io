@@ -1,13 +1,28 @@
 name: Justin Adkins
-email: justin.adkins@protonmail.com
 location: Columbus, OH USA
-github_username: jmadkins
-twitter_username: hijustinadkins
 about_me: >-
   Developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
-  Started with C# but have fallen in love with ruby.
+  Started with C# but have fallen in love with ruby.  
 baseurl: ""
 url: "https://adkinss.io"
+email: justin.adkins@protonmail.com
+networks:
+  - icon: github
+    url: https://github.com
+    username: jmadkins
+  - icon: twitter
+    url: https://twitter.com
+    username: hijustinadkins
+  - icon: linkedin
+    url: https://www.linkedin.com/in
+    username: jmadkins
+jobs:
+  - position: Co-owner & CIO
+    company: MythCoders
+    url: https://www.mythcoders.com
+  - position: Software Developer
+    company: CoverMyMeds
+    url: https://www.covermymeds.com/
 
 # Build settings
 markdown: kramdown

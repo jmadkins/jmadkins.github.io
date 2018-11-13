@@ -43,6 +43,7 @@
 - title: Technologies, tools, and services
   items:
     - Entity Framework
+    - Docker
     - Splunk
     - AppDynamics
     - ServiceNow
