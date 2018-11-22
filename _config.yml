@@ -5,7 +5,8 @@ about_me: >-
   Started with C# but have fallen in love with ruby.
 baseurl: ""
 url: "https://adkinss.io"
-email: justin.adkins@outlook.com
+emails:
+  - justin.adkins@outlook.com
 networks:
   - icon: github
     url: https://github.com
