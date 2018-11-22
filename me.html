@@ -5,50 +5,7 @@ layout: default
 
 <div class="row">
   <div class="col-md-3 col-sm-5">
-    <div class="card">
-      <img class="card-img-top" src="/images/me.jpg">
-      <div class="card-body">
-        <p class="card-text">
-          {{ site.about_me }}
-          <i class="fab fa-empire"></i>
-        </p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item" style="padding-left: 7px;">
-          <ul class="fa-ul">
-            {% for job in site.jobs %}
-              <li>
-                <span class="fa-li" ><i class="fas fa-building"></i></span>
-                {{ job.position }}
-                <br />
-                <strong>
-                  <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
-                </strong>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li class="list-group-item">
-          <i class="fas fa-map-marker-alt fa-fw"></i>
-          {{ site.location }}
-        </li>
-        <li class="list-group-item" style="padding-right: 7px;">
-          <i class="fas fa-envelope fa-fw"></i>
-          <a href="mailto:{{ site.email }}">
-            {{ site.email }}
-          </a>
-        </li>
-        {% for network in site.networks %}
-          <li class="list-group-item">
-            <i class="fab fa-{{ network.icon }} fa-fw"></i>
-            <a href="{{ network.url }}/{{ network.username }}" target="_blank">{{ network.username }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-      <div class="card-footer">
-        <a href="/files/resume.pdf" target="_blank" class="btn btn-outline-primary btn-sm">Download resume</a>
-      </div>
-    </div>
+    {% include me/sidebar.html %}
     <br />
   </div>
   <div class="col-md-9 col-sm-7">
@@ -66,37 +23,15 @@ layout: default
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="job" role="tabpanel" aria-labelledby="job-tab">
         {% for job in site.data.jobs %}
-          <div class="card">
-            <h5 class="card-header">{{ job.company }}</h5>
-            <div class="card-body">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <i class="fas fa-user-tie fa-fw"></i>
-                  {{ job.position }}
-                </li>
-                <li class="list-inline-item">
-                  <i class="fas fa-calendar-alt fa-fw"></i>
-                  {{ job.start }} - {{ job.end }}
-                </li>
-                <li class="list-inline-item">
-                  <i class="fas fa-map-marker-alt fa-fw"></i>
-                  {{ job.location }}
-                </li>
-              </ul>
-              <h5 class="card-title">Responsibilities</h5>
-              <ul>
-                {% for item in job.responsibilities %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
+          {% include me/job.html content=job %}
           <br />
         {% endfor %}
       </div>
       <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
         {% for skill in site.data.skills %}
-          <strong>{{ skill.title }}</strong>
+          <span class="text-dark">
+            <strong>{{ skill.title }}</strong>
+          </span>
           <ul class="list-inline">
             {% for item in skill.items %}
               <li class="list-inline-item">{{ item }}</li>
@@ -107,7 +42,7 @@ layout: default
       <div class="tab-pane fade" id="course" role="tabpanel" aria-labelledby="course-tab">
         {% for course in site.data.courses %}
           <blockquote class="blockquote">
-            <p class="mb-0">{{ course.name }}</p>
+            <p class="mb-0 text-dark">{{ course.name }}</p>
             <footer class="blockquote-footer">{{ course.instructor }}</footer>
           </blockquote>
         {% endfor %}

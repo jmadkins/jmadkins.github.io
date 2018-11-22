@@ -2,20 +2,21 @@ name: Justin Adkins
 location: Columbus, OH USA
 about_me: >-
   Developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
-  Started with C# but have fallen in love with ruby.  
+  Started with C# but have fallen in love with ruby.
 baseurl: ""
 url: "https://adkinss.io"
-email: justin.adkins@protonmail.com
+emails:
+  - justin.adkins@outlook.com
 networks:
   - icon: github
     url: https://github.com
     username: jmadkins
-  - icon: twitter
-    url: https://twitter.com
-    username: hijustinadkins
   - icon: linkedin
     url: https://www.linkedin.com/in
     username: jmadkins
+  - icon: twitter
+    url: https://twitter.com
+    username: hijustinadkins
 jobs:
   - position: Co-owner & CIO
     company: MythCoders
