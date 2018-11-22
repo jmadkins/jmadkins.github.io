@@ -1,18 +1,32 @@
 - company: CoverMyMeds
-  position: Software Developer
-  start: May 2018
-  end: Present
   location: Columbus, OH USA
+  positions:
+    - title: Software Developer
+      start: May 2018
+      end: Present
   responsibilities:
     - Design and develop web applications and APIs for internal support software and the CoverMyMeds product line.
     - Contribute to and improve revision control and deployment in a fast-paced, agile environment.
-    - Review code changes of fellow developers. Reviewed seperately for code quality and risk analysis.    
+    - Review code changes of fellow developers. Reviewed seperately for code quality and risk analysis.
 
 - company: Ohio Department of Public Safety
-  position: Software Development Specialist 1-4, College Intern
-  start: Nov 2013
-  end: May 2018
   location: Columbus, OH USA
+  positions:
+    - title: College Intern
+      start: Nov 2013
+      end: Apr 2014
+    - title: Software Development Specialist 1
+      start: Apr 2014
+      end: Oct 2014
+    - title: Software Development Specialist 2
+      start: Oct 2014
+      end: Oct 2015
+    - title: Software Development Specialist 3
+      start: Oct 2015
+      end: Jan 2017
+    - title: Software Development Specialist 4
+      start: Jan 2017
+      end: May 2018
   responsibilities:
     - Gather requirements, architect, and implement enterprise-level systems. Systems included multiple applications on internal and external networks that were used by people throughout the department and State of Ohio, respectively. All systems followed a department template and stuck to defined standards.
     - Rewrite legacy systems into efficient modern systems using the latest de- partment standards. Attempt to simplify process workflows and automate manual tasks performed by employees as much as possible.

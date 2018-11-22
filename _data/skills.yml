@@ -1,4 +1,8 @@
-- title: "Languages"
+- title: Things I'm learning
+  items:
+    - Kubernetes
+
+- title: Languages
   items:
     - Ruby
     - C#
@@ -30,8 +34,8 @@
 
 - title: Data
   items:
-    - Microsoft SQL
     - PostgreSQL
+    - Microsoft SQL
     - MySQL
     - Redis
 
