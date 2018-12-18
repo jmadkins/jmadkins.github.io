@@ -1,6 +1,7 @@
 - title: Things I'm learning
   items:
     - Kubernetes
+    - Vim
 
 - title: Languages
   items:
@@ -12,8 +13,8 @@
 - title: Frameworks
   items:
     - Ruby-on-Rails
-    - .Net (Core, Standard, Full)
-    - ASP.Net (MVC & Web API)
+    - .Net (Core, Standard, and Full)
+    - ASP.Net MVC and Web API
 
 - title: Web design and management
   items:

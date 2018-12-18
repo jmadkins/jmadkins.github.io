@@ -14,6 +14,9 @@ networks:
   - icon: linkedin
     url: https://www.linkedin.com/in
     username: jmadkins
+  - icon: stack-overflow
+    url: https://stackoverflow.com/users/2247108
+    username: justin-adkins
   - icon: twitter
     url: https://twitter.com
     username: hijustinadkins
