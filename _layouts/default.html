@@ -21,10 +21,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item {% if page.url == '/' %} active {% endif %}">
             <a class="nav-link" href="/">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {% if page.url == '/me.html' %} active {% endif %}">
             <a class="nav-link" href="/me">About</a>
           </li>
         </ul>
