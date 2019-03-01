@@ -14,6 +14,9 @@ layout: default
         <a class="nav-link active" id="job-tab" data-toggle="tab" href="#job" role="tab" aria-controls="job" aria-selected="false">Experience</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" id="job-tab" data-toggle="tab" href="#clubs" role="tab" aria-controls="clubs" aria-selected="false">Clubs and Organizations</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill" aria-selected="true">Skills</a>
       </li>
       <li class="nav-item">
@@ -26,6 +29,16 @@ layout: default
           {% include me/job.html content=job %}
           <br />
         {% endfor %}
+      </div>
+      <div class="tab-pane fade" id="clubs" role="tabpanel" aria-labelledby="clubs-tab">
+        <ul class="list-group">
+          {% for club in site.data.clubs %}
+            <a class="list-group-item" href="{{ club.site }}" target="_blank">
+              <i class="{{ club.icon }}"></i>
+              {{ club.name }}
+            </a>
+          {% endfor %}
+        </ul>
       </div>
       <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
         {% for skill in site.data.skills %}
