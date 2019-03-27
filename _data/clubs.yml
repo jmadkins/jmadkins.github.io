@@ -1,0 +1,23 @@
+- name: Clintonville Area Progressives
+  site: http://columbusrb.com/
+  icon: fas fa-democrat
+
+- name: Columbus Ruby Brigade
+  site: http://columbusrb.com/
+  icon: fas fa-code
+
+- name: Franklin County Democratic Party
+  site: http://www.fcdp.org/
+  icon: fas fa-democrat
+
+- name: Franklin County Young Dems
+  site: https://franklincountyyoungdemocrats.com/
+  icon: fas fa-democrat
+
+- name: Worthingon Area Democratic Club (WACD)
+  site: https://www.facebook.com/Worthington-Area-Democratic-Club-59629056609/
+  icon: fas fa-democrat
+  
+- name: Worthingon Noon Lions Club
+  site: http://e-clubhouse.org/sites/worthingtonnoon/
+  icon: fas fa-hands-helping
