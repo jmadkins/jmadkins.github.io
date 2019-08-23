@@ -10,11 +10,15 @@
   site: http://www.fcdp.org/
   icon: fad fa-democrat
 
-- name: Franklin County Young Dems
+- name: Franklin County Young Dems (FCYD)
   site: https://franklincountyyoungdemocrats.com/
   icon: fad fa-democrat
 
-- name: Worthingon Area Democratic Club (WACD)
+- name: Sharon Township Tech Committee
+  site: https://sharontwp.us/
+  icon: fad fa-code
+
+- name: Worthingon Area Democratic Club (WADC)
   site: https://www.facebook.com/Worthington-Area-Democratic-Club-59629056609/
   icon: fad fa-democrat
 
