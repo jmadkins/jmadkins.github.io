@@ -1,13 +1,26 @@
 title: Justin Adkins
 location: Columbus, OH USA
 about_me: >-
-  Developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
+  Candidate for OH Senate District 16, developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
   Started with C# but have fallen in love with ruby.
 baseurl: ""
 url: https://adkinss.io
 emails:
   - justin.adkins@outlook.com
+  - justin@adkinsforohio.com
 networks:
+  - icon: facebook
+    url: https://facebook.com
+    username: adkinsforohio
+  - icon: twitter
+    url: https://twitter.com
+    username: adkinsforohio
+  - icon: instagram
+    url: https://instagram.com
+    username: adkinsforohio
+  - icon: gitlab
+    url: https://gitlab.com
+    username: jmadkins
   - icon: github
     url: https://github.com
     username: jmadkins
@@ -21,7 +34,10 @@ networks:
     url: https://twitter.com
     username: hijustinadkins
 jobs:
-  - position: CIO & Co-owner
+  - position: Candidate for Ohio State Senate
+    company: Adkins For Ohio
+    url: https://www.adkinsforohio.com
+  - position: Co-owner & CIO
     company: MythCoders
     url: https://www.mythcoders.com
   - position: Software Developer
@@ -30,7 +46,6 @@ jobs:
 
 # Build settings
 markdown: kramdown
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,5 +1,10 @@
 <div class="card">
-  <img class="card-img-top" src="/images/me.jpg" alt="An headshot of Justin wearing a humerous fishing hat">
+  <h2 class="card-header bg-primary text-white">{{ site.title }}</h2>
+  <img
+    class="card-img-top"
+    src="https://www.gravatar.com/avatar/bf8093f915e34c8f58b87350f279857f?s=500"
+    alt="An headshot of Justin wearing a humerous fishing hat"
+  />
   <div class="card-body">
     <p class="card-text">
       {{ site.about_me }}
@@ -10,34 +15,35 @@
     <li class="list-group-item" style="padding-left: 7px;">
       <ul class="fa-ul">
         {% for job in site.jobs %}
-          <li>
-            <span class="fa-li" ><i class="fas fa-building"></i></span>
-            {{ job.position }}
-            <br />
-            <strong>
-              <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
-            </strong>
-          </li>
+        <li>
+          <span class="fa-li"><i class="fad fa-briefcase"></i></span>
+          {{ job.position }}
+          <br />
+          <strong>
+            <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
+          </strong>
+        </li>
         {% endfor %}
       </ul>
     </li>
     <li class="list-group-item">
-      <i class="fas fa-map-marker-alt fa-fw"></i>
+      <i class="fad fa-map-marker-alt fa-fw"></i>
       {{ site.location }}
     </li>
     {% for email in site.emails %}
-      <li class="list-group-item" style="padding-right: 7px;">
-        <i class="fas fa-envelope fa-fw"></i>
-        <a href="mailto:{{ email }}">
-          {{ email }}
-        </a>
-      </li>
-    {% endfor %}
-    {% for network in site.networks %}
-      <li class="list-group-item">
-        <i class="fab fa-{{ network.icon }} fa-fw"></i>
-        <a href="{{ network.url }}/{{ network.username }}" target="_blank">{{ network.username }}</a>
-      </li>
+    <li class="list-group-item" style="padding-right: 7px;">
+      <i class="fad fa-envelope fa-fw"></i>
+      <a href="mailto:{{ email }}">
+        {{ email }}
+      </a>
+    </li>
+    {% endfor %} {% for network in site.networks %}
+    <li class="list-group-item">
+      <i class="fab fa-{{ network.icon }} fa-fw"></i>
+      <a href="{{ network.url }}/{{ network.username }}" target="_blank">{{
+        network.username
+      }}</a>
+    </li>
     {% endfor %}
   </ul>
 </div>
