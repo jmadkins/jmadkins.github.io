@@ -9,7 +9,7 @@ layout: default
     <br />
   </div>
   <div class="col-12 col-xl-9 col-lg-8 col-md-7 col-sm-6">
-    <ul class="nav nav-tabs padded-tabs" id="myTab" role="tablist">
+    <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-bottom: 1rem;">
       <li class="nav-item">
         <a
           class="nav-link active text-uppercase"
@@ -79,10 +79,10 @@ layout: default
         <ul class="list-group">
           {% for club in site.data.clubs %}
           <a class="list-group-item" href="{{ club.site }}" target="_blank">
-            <h5>
+            <h4>
               <i class="{{ club.icon }}"></i>
               {{ club.name }}
-            </h5>
+            </h4>
           </a>
           {% endfor %}
         </ul>
@@ -93,16 +93,22 @@ layout: default
         role="tabpanel"
         aria-labelledby="skill-tab"
       >
-        {% for skill in site.data.skills %}
-        <h5 class="text-primary">
-          {{ skill.title }}
-        </h5>
-        <ul class="list-inline">
-          {% for item in skill.items %}
-          <li class="list-inline-item">{{ item }}</li>
+        <ul class="list-group">
+          {% for skill in site.data.skills %}
+          <li class="list-group-item">
+            <h4 class="text-primary">
+              {{ skill.title }}
+            </h4>
+            <ul class="list-inline">
+              {% for item in skill.items %}
+              <li class="list-inline-item">
+                <h5 style="font-weight: normal;">{{ item }}</h5>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
           {% endfor %}
         </ul>
-        {% endfor %}
       </div>
       <div
         class="tab-pane fade"
@@ -110,12 +116,16 @@ layout: default
         role="tabpanel"
         aria-labelledby="course-tab"
       >
-        {% for course in site.data.courses %}
-        <blockquote class="blockquote">
-          <p class="mb-0 text-primary">{{ course.name }}</p>
-          <footer class="blockquote-footer">{{ course.instructor }}</footer>
-        </blockquote>
-        {% endfor %}
+        <ul class="list-group">
+          {% for course in site.data.courses %}
+          <li class="list-group-item">
+            <h4 class="text-primary">
+              {{ course.name }}
+              <small class="blockquote-footer">{{ course.instructor }}</small>
+            </h4>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
