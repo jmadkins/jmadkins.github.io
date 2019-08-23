@@ -1,13 +1,10 @@
-- title: Things I'm learning
-  items:
-    - Kubernetes
-    - Vim
-
 - title: Languages
   items:
     - Ruby
     - C#
     - PowerShell
+    - PHP
+    - Elixir
     - C++
 
 - title: Frameworks
@@ -26,13 +23,6 @@
     - HAML
     - DNS
 
-- title: Infrastructure
-  items:
-    - Azure
-    - Digital Ocean
-    - Heroku
-    - Amazon Web Services
-
 - title: Data
   items:
     - PostgreSQL
@@ -40,22 +30,35 @@
     - MySQL
     - Redis
 
+- title: Technologies, tools, and services
+  items:
+    - Splunk
+    - AppDynamics
+    - ELK Stack
+    - ServiceNow
+    - Office 365
+    - JIRA
+    - Sentry
+    - Grafana
+    - Vim
+
+- title: Infrastructure
+  items:
+    - Azure
+    - Digital Ocean
+    - Docker
+    - Heroku
+    - Kubernetes
+    - Amazon Web Services
+
 - title: Version Control
   items:
     - Git
     - Team Foundation Version Control
 
-- title: Technologies, tools, and services
-  items:
-    - Entity Framework
-    - Docker
-    - Splunk
-    - AppDynamics
-    - ServiceNow
-    - JIRA
-    - SendGrid
-
 - title: Digital and print design
   items:
-    - InDesign
-    - Photoshop
+    - Adobe InDesign
+    - Adobe Photoshop
+    - Adobe Illustrator
+    - Final Cut Pro X
