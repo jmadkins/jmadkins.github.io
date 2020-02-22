@@ -1,7 +1,7 @@
 title: Justin Adkins
 location: Columbus, OH USA
 about_me: >-
-  Candidate for OH Senate District 16, developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
+  Developer, small business owner, lover of Lord of the Rings, cats, and all things politics.
   Started with C# but have fallen in love with ruby.
 baseurl: ""
 url: https://adkinss.io
@@ -34,15 +34,15 @@ networks:
     url: https://twitter.com
     username: hijustinadkins
 jobs:
-  - position: Candidate for Ohio State Senate
-    company: Adkins For Ohio
-    url: https://www.adkinsforohio.com
-  - position: Co-owner & CIO
+  - position: Co-owner
     company: MythCoders
     url: https://www.mythcoders.com
   - position: Software Developer
     company: CoverMyMeds
     url: https://www.covermymeds.com/
+  - position: Former candidate for Ohio State Senate
+    company: Adkins For Ohio
+    url: https://www.adkinsforohio.com
 
 # Build settings
 markdown: kramdown
