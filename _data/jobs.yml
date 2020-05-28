@@ -12,12 +12,12 @@
 - company: Newby For Congress
   location: Columbus, OH USA
   positions:
-    - title: Campaign Senior Advisor
-      start: April 2020
-      end: Present
     - title: Franklin County Organizer
       start: February 2020
       end: April 2020
+    - title: Campaign Senior Advisor
+      start: April 2020
+      end: Present
   responsibilities:
     - Running in Ohio's 15th Congressional District
 
