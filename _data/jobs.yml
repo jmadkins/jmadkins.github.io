@@ -5,9 +5,21 @@
       start: May 2018
       end: Present
   responsibilities:
-    - Design and develop web applications and APIs for internal support software and the CoverMyMeds product line.
+    - Design and develop Ruby on Rails applications and APIs for internal support software and the CoverMyMeds product line.
     - Contribute to and improve revision control and deployment in a fadt-paced, agile environment.
     - Review code changes of fellow developers. Reviewed seperately for code quality and risk analysis.
+
+- company: Newby For Congress
+  location: Columbus, OH USA
+  positions:
+    - title: Campaign Senior Advisor
+      start: April 2020
+      end: Present
+    - title: Franklin County Organizer
+      start: February 2020
+      end: April 2020
+  responsibilities:
+    - Running in Ohio's 15th Congressional District
 
 - company: Ohio Department of Public Safety
   location: Columbus, OH USA
