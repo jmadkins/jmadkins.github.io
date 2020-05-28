@@ -9,18 +9,6 @@ emails:
   - justin@adkinss.io
   - justin.adkins@outlook.com
 networks:
-  - icon: facebook
-    url: https://facebook.com
-    username: adkinsforohio
-  - icon: twitter
-    url: https://twitter.com
-    username: adkinsforohio
-  - icon: instagram
-    url: https://instagram.com
-    username: adkinsforohio
-  - icon: gitlab
-    url: https://gitlab.com
-    username: jmadkins
   - icon: github
     url: https://github.com
     username: jmadkins
