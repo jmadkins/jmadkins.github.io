@@ -6,8 +6,8 @@ about_me: >-
 baseurl: ""
 url: https://adkinss.io
 emails:
+  - justin@adkinss.io
   - justin.adkins@outlook.com
-  - justin@adkinsforohio.com
 networks:
   - icon: facebook
     url: https://facebook.com
@@ -34,7 +34,7 @@ networks:
     url: https://twitter.com
     username: hijustinadkins
 jobs:
-  - position: Co-owner
+  - position: Owner
     company: MythCoders
     url: https://www.mythcoders.com
   - position: Software Developer
