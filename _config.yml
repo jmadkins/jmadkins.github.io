@@ -6,8 +6,8 @@ about_me: >-
 baseurl: ""
 url: https://adkinss.io
 emails:
+  - jadkins@hey.com
   - justin@adkinss.io
-  - justin.adkins@outlook.com
 networks:
   - icon: github
     url: https://github.com
