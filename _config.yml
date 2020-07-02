@@ -7,7 +7,6 @@ baseurl: ""
 url: https://adkinss.io
 emails:
   - jadkins@hey.com
-  - justin@adkinss.io
 networks:
   - icon: github
     url: https://github.com
