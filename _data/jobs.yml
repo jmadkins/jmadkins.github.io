@@ -1,15 +1,3 @@
-- company: Newby For Congress
-  location: Columbus, OH USA
-  positions:
-    - title: Franklin County Organizer
-      start: February 2020
-      end: April 2020
-    - title: Campaign Senior Advisor
-      start: April 2020
-      end: Present
-  responsibilities:
-    - Running in Ohio's 15th Congressional District
-
 - company: CoverMyMeds
   location: Columbus, OH USA
   positions:
@@ -20,6 +8,19 @@
     - Design and develop Ruby on Rails applications and APIs for internal support software and the CoverMyMeds product line.
     - Contribute to and improve revision control and deployment in a fadt-paced, agile environment.
     - Review code changes of fellow developers. Reviewed seperately for code quality and risk analysis.
+
+- company: Newby For Congress
+  location: Columbus, OH USA
+  positions:
+    - title: Franklin County Organizer
+      start: February 2020
+      end: April 2020
+    - title: Campaign Senior Advisor
+      start: April 2020
+      end: November 2020
+  responsibilities:
+    - Running in Ohio's 15th Congressional District
+    - Run campaigns technical operations
 
 - company: Ohio Department of Public Safety
   location: Columbus, OH USA
