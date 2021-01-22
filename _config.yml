@@ -24,6 +24,9 @@ jobs:
   - position: Owner
     company: MythCoders
     url: https://www.mythcoders.com
+  - position: Executive Director
+    company: Ecclesia
+    url: https://www.ecclesia.vote
   - position: Software Developer
     company: CoverMyMeds
     url: https://www.covermymeds.com/
