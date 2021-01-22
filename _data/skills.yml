@@ -2,10 +2,7 @@
   items:
     - Ruby
     - C#
-    - PowerShell
     - PHP
-    - Elixir
-    - C++
 
 - title: Frameworks
   items:
@@ -18,7 +15,7 @@
     - HTML
     - CSS/LESS/SASS
     - JavaScript
-    - jQuery
+    - VueJS/StimulusJS
     - REST/SOAP
     - HAML
     - DNS
@@ -34,7 +31,6 @@
   items:
     - Splunk
     - AppDynamics
-    - ELK Stack
     - ServiceNow
     - Office 365
     - JIRA
