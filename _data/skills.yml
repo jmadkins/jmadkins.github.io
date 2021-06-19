@@ -12,14 +12,12 @@
     - Stimulus
 
 - title: Data Storage
-  items:
     - PostgreSQL
     - Microsoft SQL
     - MySQL
     - Redis
 
 - title: Tooling
-  items:
     - Docker
     - Kubernetes
     - Ansible
