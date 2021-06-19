@@ -5,7 +5,7 @@
   <img
     class="card-img-top"
     src="https://www.gravatar.com/avatar/bf8093f915e34c8f58b87350f279857f?s=500"
-    alt="An headshot of Justin wearing a humerous fishing hat"
+    alt="An headshot of Justin"
   />
   <div class="card-body">
     <p class="card-text">
@@ -14,7 +14,7 @@
     </p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item" style="padding-left: 7px;">
+    <li class="list-group-item" style="padding-left: 7px">
       <ul class="fa-ul">
         {% for job in site.jobs %}
         <li>
@@ -33,18 +33,16 @@
       {{ site.location }}
     </li>
     {% for email in site.emails %}
-    <li class="list-group-item" style="padding-right: 7px;">
+    <li class="list-group-item" style="padding-right: 7px">
       <i class="fad fa-envelope fa-fw"></i>
-      <a href="mailto:{{ email }}">
-        {{ email }}
-      </a>
+      <a href="mailto:{{ email }}"> {{ email }} </a>
     </li>
     {% endfor %} {% for network in site.networks %}
     <li class="list-group-item">
       <i class="fab fa-{{ network.icon }} fa-fw"></i>
-      <a href="{{ network.url }}/{{ network.username }}" target="_blank">{{
-        network.username
-      }}</a>
+      <a href="{{ network.url }}/{{ network.username }}" target="_blank"
+        >{{ network.username }}</a
+      >
     </li>
     {% endfor %}
   </ul>

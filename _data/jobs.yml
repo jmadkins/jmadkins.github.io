@@ -5,9 +5,23 @@
       start: May 2018
       end: Present
   responsibilities:
-    - Design and develop Ruby on Rails applications and APIs for internal support software and the CoverMyMeds product line.
-    - Contribute to and improve revision control and deployment in a fast-paced, agile environment.
-    - Review code changes of fellow developers. Reviewed separately for code quality and risk analysis.
+    - Design, implement, and maintain Rails applications in a microservice environment for the CoverMyMeds product line
+    - Drove increase in annual recurring revenue by coordinating with analytics team and running user A/B experiments across various product features.
+    - Assumed ownership of a large and complex legacy codebase written in an unfamiliar language. Improved existing code while also adding new features, enhancements, and tests.
+    - Researched business logic across multiple services and discovered a change that allowed a features rollout to increase from 4% to 68% of userbase.
+    - Lead team in analyzing applications and features for risks; After identifying more than 50, coordinated with engineering manager and product owners to prioritize fixes and mitigate risks to under 10.
+
+- company: MythCoders
+  location: Columbus, OH USA
+  positions:
+    - title: Owner
+      start: Oct 2017
+      end: Present
+  responsibilities:
+    - Use Kubernetes to provide affordable technical solutions to local governments, businesses, and political candidates.
+    - Built Hubble, a campaign management platform to help candidates and community organizations run winning campaigns with efficient voter outreach.
+    - Designed and open-sourced Hermes, an application that handles logging and routing emails to AWS.
+    - Created e-commerce site for client where customers book workshops and pick DIY projects to be built. Credit Card and PayPal processing handled by Braintree.
 
 - company: Newby For Congress
   location: Columbus, OH USA
@@ -41,10 +55,8 @@
       start: Jan 2017
       end: May 2018
   responsibilities:
-    - Gather requirements, architect, and implement enterprise-level systems. Systems included multiple applications on internal and external networks that were used by people throughout the department and State of Ohio, respectively. All systems followed a department template and stuck to defined standards.
-    - Rewrite legacy systems into efficient modern systems using the latest department standards. Attempt to simplify process workflows and automate manual tasks performed by employees as much as possible.
-    - Provide customer support to internal users and external customers who consumed Public Safety’s online services.
-    - Mentor fellow developers and interns, delegate and prioritize their tasks, track their progress and review their final products on a daily basis.
-    - Lead a team of full-time developers and consultants, under the direction of my supervisor, to solve problems that were thrown our way.
-    - Monitoring, troubleshooting, and resolution of production issues using department software such as Splunk and AppDynamics.
-    - Research and recommend technologies for wider adoption among the IT department.
+    - Lead a team of full-time developers and consultants
+    - Gathered requirements for, designed, and implemented enterprise-level systems. Systems were composed of internal and external networks used by people throughout the department and State of Ohio.
+    - Rewrote legacy systems into efficient modern systems. Simplified process workflows and automated manual tasks performed by employees as much as possible.
+    - Mentored fellow developers and interns, delegate and prioritize tasks, track progress and reviewed their final products on a daily basis.
+    

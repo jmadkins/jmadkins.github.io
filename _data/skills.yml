@@ -2,59 +2,24 @@
   items:
     - Ruby
     - C#
+    - JavaScript
     - PHP
 
 - title: Frameworks
   items:
-    - Ruby-on-Rails
-    - .Net (Core, Standard, and Full)
-    - ASP.Net MVC and Web API
+    - Rails
+    - Vue.js
+    - Stimulus
 
-- title: Web design and management
-  items:
-    - HTML
-    - CSS/LESS/SASS
-    - JavaScript
-    - VueJS/StimulusJS
-    - REST/SOAP
-    - HAML
-    - DNS
-
-- title: Data
-  items:
+- title: Data Storage
     - PostgreSQL
     - Microsoft SQL
     - MySQL
     - Redis
 
-- title: Technologies, tools, and services
-  items:
-    - Splunk
-    - AppDynamics
-    - ServiceNow
-    - Office 365
-    - JIRA
-    - Sentry
-    - Grafana
-    - Vim
-
-- title: Infrastructure
-  items:
-    - Azure
-    - Digital Ocean
+- title: Tooling
     - Docker
-    - Heroku
     - Kubernetes
-    - Amazon Web Services
-
-- title: Version Control
-  items:
-    - Git
-    - Team Foundation Version Control
-
-- title: Digital and print design
-  items:
-    - Adobe InDesign
-    - Adobe Photoshop
-    - Adobe Illustrator
-    - Final Cut Pro X
+    - Ansible
+    - GitHub
+    - GitLab

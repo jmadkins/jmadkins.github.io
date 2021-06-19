@@ -1,8 +1,9 @@
 title: Justin Adkins
 location: Columbus, OH USA
 about_me: >-
-  Developer, cat and fish dad, business owner, lover of Lord of the Rings,
-  Star Wars, and all things politics. Started with C# but have fallen in love with ruby.
+  Results-oriented developer with eight years of professional experience. Started with C# but have fallen in love
+  with ruby. Excels at leading small teams, mentoring junior developers, and finding concise, elegant solutions
+  to complicated problems. Cat dad, business owner, lover of Lord of the Rings, Star Wars, and all things politics.
 baseurl: ""
 url: https://adkins.dev
 emails:
@@ -17,9 +18,6 @@ networks:
   - icon: stack-overflow
     url: https://stackoverflow.com/users/2247108
     username: justin-adkins
-  - icon: twitter
-    url: https://twitter.com
-    username: hijustinadkins
 jobs:
   - position: Owner
     company: MythCoders
