@@ -1,15 +1,11 @@
-- company: CoverMyMeds
-  location: Columbus, OH USA
+- company: TaskRabbit
+  location: Remote/San Francisco, CA USA
   positions:
-    - title: Software Developer
-      start: May 2018
+    - title: Senior Software Engineer
+      start: July 2021
       end: Present
   responsibilities:
-    - Design, implement, and maintain Rails applications in a microservice environment for the CoverMyMeds product line
-    - Drove increase in annual recurring revenue by coordinating with analytics team and running user A/B experiments across various product features.
-    - Assumed ownership of a large and complex legacy codebase written in an unfamiliar language. Improved existing code while also adding new features, enhancements, and tests.
-    - Researched business logic across multiple services and discovered a change that allowed a features rollout to increase from 4% to 68% of userbase.
-    - Lead team in analyzing applications and features for risks; After identifying more than 50, coordinated with engineering manager and product owners to prioritize fixes and mitigate risks to under 10.
+    - Member of the internal tools team working to solve company-wide problems using ruby and rails.
 
 - company: MythCoders
   location: Columbus, OH USA
@@ -19,9 +15,22 @@
       end: Present
   responsibilities:
     - Use Kubernetes to provide affordable technical solutions to local governments, businesses, and political candidates.
-    - Built Hubble, a campaign management platform to help candidates and community organizations run winning campaigns with efficient voter outreach.
-    - Designed and open-sourced Hermes, an application that handles logging and routing emails to AWS.
+    - Built <a href='https://hubble.vote'>Hubble</a>, a campaign management platform to help candidates and community organizations run winning campaigns with efficient voter outreach.
+    - Designed and open-sourced <a href='https://github.com/mythcoders/hermes'>Hermes</a>, an application that handles logging and routing emails to AWS.
     - Created e-commerce site for client where customers book workshops and pick DIY projects to be built. Credit Card and PayPal processing handled by Braintree.
+
+- company: CoverMyMeds
+  location: Remote/Columbus, OH USA
+  positions:
+    - title: Software Developer
+      start: May 2018
+      end: July 2021
+  responsibilities:
+    - Designed, implement, and maintain Rails applications in a microservice environment for the CoverMyMeds product line
+    - Drove increase in annual recurring revenue by coordinating with analytics team and running user A/B experiments across various product features.
+    - Assumed ownership of a large and complex legacy codebase written in an unfamiliar language. Improved existing code while also adding new features, enhancements, and tests.
+    - Researched business logic across multiple services and discovered a change that allowed a features rollout to increase from 4% to 68% of userbase.
+    - Lead team in analyzing applications and features for risks; After identifying more than 50, coordinated with engineering manager and product owners to prioritize fixes and mitigate risks to under 10.
 
 - company: Newby For Congress
   location: Columbus, OH USA
@@ -59,4 +68,3 @@
     - Gathered requirements for, designed, and implemented enterprise-level systems. Systems were composed of internal and external networks used by people throughout the department and State of Ohio.
     - Rewrote legacy systems into efficient modern systems. Simplified process workflows and automated manual tasks performed by employees as much as possible.
     - Mentored fellow developers and interns, delegate and prioritize tasks, track progress and reviewed their final products on a daily basis.
-    

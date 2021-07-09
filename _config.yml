@@ -19,15 +19,15 @@ networks:
     url: https://stackoverflow.com/users/2247108
     username: justin-adkins
 jobs:
+  - position: Software Software Engineer
+    company: TaskRabbit
+    url: https://www.taskrabbit.com
   - position: Owner
     company: MythCoders
     url: https://www.mythcoders.com
   - position: Executive Director
     company: Ecclesia
     url: https://www.ecclesia.vote
-  - position: Software Developer
-    company: CoverMyMeds
-    url: https://www.covermymeds.com/
   - position: Former candidate for Ohio State Senate
     company: Adkins For Ohio
     url: https://www.adkinsforohio.com
