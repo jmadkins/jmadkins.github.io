@@ -1,6 +1,6 @@
 @font-face {
   font-family: "LOTR";
-  src: url("/css/fonts/ring.ttf");
+  src: url("/assets/fonts/ring.ttf");
 }
 
 .lotr-font {

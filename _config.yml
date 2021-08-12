@@ -9,13 +9,13 @@ url: https://adkins.dev
 emails:
   - justin@adkins.dev
 networks:
-  - icon: github
+  - name: GitHub
     url: https://github.com
     username: jmadkins
-  - icon: linkedin
+  - name: LinkedIn
     url: https://www.linkedin.com/in
     username: jmadkins
-  - icon: stack-overflow
+  - name: StackOverflow
     url: https://stackoverflow.com/users/2247108
     username: justin-adkins
 jobs:
@@ -28,9 +28,6 @@ jobs:
   - position: Executive Director
     company: Ecclesia
     url: https://www.ecclesia.vote
-  - position: Former candidate for Ohio State Senate
-    company: Adkins For Ohio
-    url: https://www.adkinsforohio.com
 
 # Build settings
 markdown: kramdown

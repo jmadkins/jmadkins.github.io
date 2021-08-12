@@ -1,0 +1,10 @@
+<ul class="list-group">
+  {% for club in site.data.clubs %}
+  <a class="list-group-item" href="{{ club.site }}" target="_blank">
+    <h4>
+      <img src="/assets/icons/{{ club.icon }}" alt="Club icon">
+      {{ club.name }}
+    </h4>
+  </a>
+  {% endfor %}
+</ul>

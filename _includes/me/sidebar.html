@@ -1,24 +1,18 @@
 <div class="card">
-  <h2 class="card-header bg-primary text-white text-uppercase">
-    {{ site.title }}
-  </h2>
+  <h1 class="card-header bg-primary text-white text-uppercase text-center">{{ site.title }}</h1>
   <img
     class="card-img-top"
-    src="https://www.gravatar.com/avatar/bf8093f915e34c8f58b87350f279857f?s=500"
+    src="https://www.gravatar.com/avatar/1e765b9eb6b718df8271f5a900e5c013?s=500"
     alt="An headshot of Justin"
   />
   <div class="card-body">
-    <p class="card-text">
-      {{ site.about_me }}
-      <i class="fab fa-empire"></i>
-    </p>
+    <p class="card-text">{{ site.about_me }}</p>
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item" style="padding-left: 7px">
-      <ul class="fa-ul">
+      <ul class="business-list">
         {% for job in site.jobs %}
         <li>
-          <span class="fa-li"><i class="fad fa-briefcase"></i></span>
           {{ job.position }}
           <br />
           <strong>
@@ -29,19 +23,19 @@
       </ul>
     </li>
     <li class="list-group-item">
-      <i class="fad fa-map-marker-alt fa-fw"></i>
+      <img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
       {{ site.location }}
     </li>
     {% for email in site.emails %}
     <li class="list-group-item" style="padding-right: 7px">
-      <i class="fad fa-envelope fa-fw"></i>
+      <img src="/assets/icons/mailbox_world-1.png" alt="Email icon">
       <a href="mailto:{{ email }}"> {{ email }} </a>
     </li>
     {% endfor %} {% for network in site.networks %}
     <li class="list-group-item">
-      <i class="fab fa-{{ network.icon }} fa-fw"></i>
+      <img src="/assets/icons/world-5.png" alt="Email icon">
       <a href="{{ network.url }}/{{ network.username }}" target="_blank"
-        >{{ network.username }}</a
+        >{{ network.username }} on {{ network.name }}</a
       >
     </li>
     {% endfor %}

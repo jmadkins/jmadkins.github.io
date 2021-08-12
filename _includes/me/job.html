@@ -1,36 +1,29 @@
 <div class="card">
-  <h4 class="card-header text-white bg-primary">{{ job.company }}</h4>
+  <h3 class="card-header text-white bg-primary">{{ job.company }}</h3>
   <div class="card-body">
     <ul class="list-inline">
       <li class="list-inline-item">
-        <i class="fad fa-user-tie fa-fw"></i>
+        <img src="/assets/icons/user_computer-0.png" alt="User icon">
         {{ job.positions.last.title }}
       </li>
-      {% if job.website %}
       <li class="list-inline-item">
-        <a href="{{ job.website }}">
-          <i class="fad fa-globe fa-fw"></i> Website
-        </a>
-      </li>
-      {% endif %}
-      <li class="list-inline-item">
-        <i class="fad fa-calendar-alt fa-fw"></i>
+        <img src="/assets/icons/calendar-5.png" alt="Calendar icon">
         {{ job.positions.first.start }} - {{ job.positions.last.end }}
       </li>
       <li class="list-inline-item">
-        <i class="fad fa-map-marker-alt fa-fw"></i>
+        <img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
         {{ job.location }}
       </li>
     </ul>
     <h5 class="card-title">Responsibilities</h5>
-    <ul>
+    <ul class="file-list">
       {% for item in job.responsibilities %}
       <li>{{ item }}</li>
       {% endfor %}
     </ul>
     {% if job.positions.size > 1 %}
     <h5 class="card-title">Position History</h5>
-    <ul>
+    <ul class="history-list">
       {% for position in job.positions reversed %}
       <li>
         <strong>{{ position.title }}</strong>
