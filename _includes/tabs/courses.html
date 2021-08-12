@@ -1,0 +1,8 @@
+<ul class="list-group">
+  {% for course in site.data.courses %}
+  <li class="list-group-item">
+    <h4 class="text-teal">{{ course.name }}</h4>
+    <h5 style="font-weight: normal;">{{ course.instructor }}</h5>
+  </li>
+  {% endfor %}
+</ul>
