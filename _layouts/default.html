@@ -12,6 +12,7 @@
     <meta name="keywords" content="justin,adkins,developer" />
     <link rel="stylesheet" href="/assets/styles/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/styles/win95.css" />
+    <script src="/assets/scripts/comcastify.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -23,9 +24,32 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="windows-scrollbar">
     <div class="container-fluid" style="margin-bottom: 1rem; margin-top: 1rem">
       {{ content }}
     </div>
+    <footer class="taskbar">
+      <div class="row" style="margin-right: 0px;">
+          <div class="col-8">
+              <a href="https://github.com/AlexBSoft/win95.css" class="btn start-button"><img src="assets/icons/windows_update_large-0.png" class="icon-16">Win95.css</a>
+              <a href="https://github.com/theonion/comcastifyjs" class="btn start-button"><img src="assets/icons/application_hourglass_small-1.png" class="icon-16"> ComcastifyJS</a>
+          </div>
+          <div class="col-4 time">By Justin Adkins</div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        comcastifyjs.letsPrepareTheseImages();
+      });
+
+      window.addEventListener('load', (event) => {
+        comcastifyjs.fixMyImagesLoadingSoFast({
+          loadMaxPercent: 1,
+          loadSpeed: 700,
+          loadIncrement: 20,
+          boxColor: '#c0c0c0'
+        })();
+      });
+    </script>
   </body>
 </html>

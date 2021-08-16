@@ -14,8 +14,8 @@
 - title: Data Storage
   items:
     - PostgreSQL
-    - Microsoft SQL
     - MySQL
+    - Microsoft SQL
     - Redis
 
 - title: Tooling
