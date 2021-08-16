@@ -239,8 +239,8 @@ CARDS
     color: #fff;
     display: block;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow: auto;
+    /* text-overflow: ellipsis; */
     padding-top: 2px;
     padding-bottom: 1px;
     text-align: left;
