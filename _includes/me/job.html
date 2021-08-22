@@ -6,7 +6,7 @@
   <div class="card-body">
     <ul class="list-inline">
       <li class="list-inline-item">
-        <img src="/assets/icons/user_computer-0.png" alt="User icon">
+        <img src="/assets/icons/user_computer-0.png" alt="Title Icon">
         {{ job.positions.last.title }}
       </li>
       <li class="list-inline-item">
@@ -18,18 +18,22 @@
         {{ job.location }}
       </li>
     </ul>
-    <h5 class="card-title">Responsibilities</h5>
+    <h6 class="card-title">
+      <strong>Responsibilities</strong>
+    </h6>
     <ul class="file-list">
       {% for item in job.responsibilities %}
       <li>{{ item }}</li>
       {% endfor %}
     </ul>
     {% if job.positions.size > 1 %}
-    <h5 class="card-title">Position History</h5>
+    <h6 class="card-title">
+      <strong>Position History</strong>
+    </h6>
     <ul class="history-list">
       {% for position in job.positions reversed %}
       <li>
-        <strong>{{ position.title }}</strong>
+        {{ position.title }}
         <br />
         {{ position.start }} - {{ position.end }}
       </li>

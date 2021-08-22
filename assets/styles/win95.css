@@ -12,19 +12,29 @@
 html {
   position: relative;
   min-height: 100%;
-  font-size: 14px;
+  font-size: 11px;
 }
 /*
 
 Body styles
 
 */
+
+@font-face {
+  font-family: "WIN95";
+  src: url('../fonts/w-95-sans-serif.woff2') format('woff2'),
+        url('../fonts/w-95-sans-serif.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-    font-family: "MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif;
+    font-family: "WIN95","MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif;
     background: teal;
     color: white;
     padding-bottom: 28px;
 }
+
 .bg-cloud{
     background-image: url(../images/clouds2.jpg);
     color:#212529;

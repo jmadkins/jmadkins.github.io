@@ -1,5 +1,5 @@
 <div class="card">
-  <h1 class="card-header bg-primary text-white text-uppercase text-center">{{ site.title }}</h1>
+  <h1 class="card-header bg-primary text-white text-uppercase text-center" style="overflow: hidden;">{{ site.title }}</h1>
   <img
     class="card-img-top"
     src="https://www.gravatar.com/avatar/1e765b9eb6b718df8271f5a900e5c013?s=500"
@@ -28,7 +28,7 @@
     </li>
     {% for email in site.emails %}
     <li class="list-group-item" style="padding-right: 7px">
-      <img src="/assets/icons/mailbox_world-1.png" alt="Email icon">
+      <img src="/assets/icons/envelope_open_sheet-1.png" alt="Email icon">
       <a href="mailto:{{ email }}"> {{ email }} </a>
     </li>
     {% endfor %} {% for network in site.networks %}
