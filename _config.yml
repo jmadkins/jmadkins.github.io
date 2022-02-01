@@ -20,8 +20,8 @@ networks:
     username: justin-adkins
 jobs:
   - position: Senior Software Engineer
-    company: TaskRabbit
-    url: https://www.taskrabbit.com
+    company: Vantage
+    url: https://www.vantage.sh
   - position: Owner
     company: MythCoders
     url: https://www.mythcoders.com
