@@ -1,11 +1,11 @@
-- company: TaskRabbit
-  location: Remote/San Francisco, CA USA
+- company: Vantage
+  location: Remote/New York, NY USA
   positions:
     - title: Senior Software Engineer
-      start: July 2021
-      end: Present
+      start: February 2022
+      end: ?
   responsibilities:
-    - Member of the internal tools team working to solve company-wide problems using ruby and rails.
+    - Working to build the best tools for developers to analyze, report on, and optimize cloud costs.
 
 - company: MythCoders
   location: Columbus, OH USA
@@ -18,6 +18,17 @@
     - Built <a href='https://hubble.vote'>Hubble</a>, a campaign management platform to help candidates and community organizations run winning campaigns with efficient voter outreach.
     - Designed and open-sourced <a href='https://github.com/mythcoders/hermes'>Hermes</a>, an application that handles logging and routing emails to AWS.
     - Created e-commerce site for client where customers book workshops and pick DIY projects to be built. Credit Card and PayPal processing handled by Braintree.
+
+- company: TaskRabbit
+  location: Remote/San Francisco, CA USA
+  positions:
+    - title: Senior Software Engineer
+      start: July 2021
+      end: February 2022
+  responsibilities:
+    - Collaborate with Product Managers as a member of the internal tools team to coordinate the improve- ment of an event-driven architecture.
+    - Blocked automated bot traffic and encouraged users to upgrade to the latest version of their browsers.
+    - Increased employee productivity 48% by improving the efficiency in which customers jobs that required manual intervention or follow-up where identified and resolved.
 
 - company: CoverMyMeds
   location: Remote/Columbus, OH USA
