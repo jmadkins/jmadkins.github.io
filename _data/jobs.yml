@@ -10,14 +10,14 @@
 - company: MythCoders
   location: Columbus, OH USA
   positions:
-    - title: Owner
+    - title: Founder
       start: Oct 2017
       end: Present
   responsibilities:
-    - Use Kubernetes and HashiCorp products to provide affordable technical solutions to local governments, businesses, and political candidates.
     - Built <a href='https://hubble.vote'>Hubble</a>, a campaign management platform to help candidates and community organizations run winning campaigns with efficient voter outreach.
     - Designed and open-sourced <a href='https://github.com/mythcoders/hermes'>Hermes</a>, an application that handles logging and routing emails to AWS.
     - Created e-commerce site for client where customers book workshops and pick DIY projects to be built. Credit Card and PayPal processing handled by Braintree.
+    - Use Kubernetes and HashiCorp products to provide affordable technical solutions to local governments, businesses, and political candidates.    
 
 - company: TaskRabbit
   location: Remote/San Francisco, CA USA

@@ -21,13 +21,13 @@ networks:
 jobs:
   - position: Senior Software Engineer
     company: Vantage
-    url: https://www.vantage.sh
-  - position: Owner
+    url: https://vantage.sh
+  - position: Founder
     company: MythCoders
-    url: https://www.mythcoders.com
+    url: https://mythcoders.com
   - position: Executive Director
     company: Ecclesia
-    url: https://www.ecclesia.vote
+    url: https://ecclesia.vote
 
 # Build settings
 markdown: kramdown
