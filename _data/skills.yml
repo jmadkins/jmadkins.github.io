@@ -3,13 +3,21 @@
     - Ruby
     - C#
     - JavaScript
+    - Rust
     - PHP
 
 - title: Frameworks
   items:
     - Rails
-    - Vue.js
     - Stimulus
+    - Vue.js
+    - React
+
+- title: Clouds
+  items:
+    - AWS
+    - DigitalOcean
+    - Azure
 
 - title: Data Storage
   items:
@@ -17,11 +25,28 @@
     - MySQL
     - Microsoft SQL
     - Redis
+    - Redshift
 
 - title: Tooling
   items:
     - Docker
-    - Kubernetes
+    - Consul
+    - Nomad
+    - Vault
     - Ansible
+    - Kubernetes
+    - Splunk
+    - DataDog
+
+- title: Software
+  items:
+    - Jira
+    - ServiceNow
     - GitHub
     - GitLab
+    - Azure DevOps
+
+- title: Payments
+  items:
+    - Stripe
+    - Braintree

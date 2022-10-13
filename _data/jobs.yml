@@ -1,11 +1,20 @@
-- company: Vantage
-  location: Remote/New York, NY USA
+- company: Taskrabbit
+  location: Remote
   positions:
     - title: Senior Software Engineer
-      start: February 2022
+      start: September 2021
       end: Present
   responsibilities:
-    - Working to build the best tools for developers to analyze, report on, and optimize cloud costs.
+    - Member of the Payments team working on redesigning and rewriting existing payment code into more maintainable framework.
+
+- company: Hubble
+  location: Worthington, OH USA
+  positions:
+    - title: Founder
+      start: Feb 2020
+      end: Present
+  responsibilities:
+    - <a href='https://hubble.vote'>Hubble</a> is an easy-to-use platform to help political campaigns centralize their voters, contacts, finances, and everything else.
 
 - company: MythCoders
   location: Columbus, OH USA
@@ -14,24 +23,37 @@
       start: Oct 2017
       end: Present
   responsibilities:
-    - Built <a href='https://hubble.vote'>Hubble</a>, a campaign management platform to help candidates and community organizations run winning campaigns with efficient voter outreach.
-    - Designed and open-sourced <a href='https://github.com/mythcoders/hermes'>Hermes</a>, an application that handles logging and routing emails to AWS.
-    - Created e-commerce site for client where customers book workshops and pick DIY projects to be built. Credit Card and PayPal processing handled by Braintree.
-    - Use Kubernetes and HashiCorp products to provide affordable technical solutions to local governments, businesses, and political candidates.    
+    - One person small business that uses HashiCorp products to provide affordable technical solutions to local governments, businesses, and political candidates.
+    - Utilize infrastructure-as-code to design and maintain multi-environment cloud networks in DigitalOcean and AWS with an n-tier architecture. Secured using latest industry standards. Currently powering five applications with 99.9\% up-time.
+    - Created and open-sourced <a href='https://github.com/mythcoders/hermes'>Hermes</a> to handle logging and routing emails to AWS Simple Email Service.
+    - Built an e-commerce site where customers book seats to in-person workshops and customize the DIY project they'll craft.
 
-- company: TaskRabbit
-  location: Remote/San Francisco, CA USA
+- company: Vantage
+  location: Remote
+  positions:
+    - title: Senior Software Engineer
+      start: February 2022
+      end: August 2022
+  responsibilities:
+    - Collaborated with CTO as the sole engineer. Had ownership of code base and launched multiple new features such as issue tracking, cost budgets, and a revamped onboarding experience.
+    - Architected technical integrations with Fastly, AWS Marketplace, and Stripe.
+    - Introduced Role Based Access Controls for easier permission controls by teammates.
+    - Collaborated with Lead Designer to establish component framework for frontend views based on GitHubs ViewComponent.
+
+- company: Taskrabbit
+  location: Remote
   positions:
     - title: Senior Software Engineer
       start: July 2021
       end: February 2022
   responsibilities:
     - Collaborate with Product Managers as a member of the internal tools team to coordinate the improve- ment of an event-driven architecture.
+    - Designed and coordinated technical integration with Segment CDP and Totango.
     - Blocked automated bot traffic and encouraged users to upgrade to the latest version of their browsers.
-    - Increased employee productivity 48% by improving the efficiency in which customers jobs that required manual intervention or follow-up where identified and resolved.
+    - Increased employee productivity 48\% by improving the efficiency in which customers jobs that required manual intervention or follow-up where identified and resolved.
 
 - company: CoverMyMeds
-  location: Remote/Columbus, OH USA
+  location: Columbus, OH USA
   positions:
     - title: Software Developer
       start: May 2018
@@ -62,7 +84,8 @@
       start: Jan 2017
       end: May 2018
   responsibilities:
-    - Lead a team of full-time developers and consultants
-    - Gathered requirements for, designed, and implemented enterprise-level systems. Systems were composed of internal and external networks used by people throughout the department and State of Ohio.
-    - Rewrote legacy systems into efficient modern systems. Simplified process workflows and automated manual tasks performed by employees as much as possible.
-    - Mentored fellow developers and interns, delegate and prioritize tasks, track progress and reviewed their final products on a daily basis.
+    - Gathered requirements for, designed, and implemented 12 enterprise-level systems. Systems were composed of internal and external networks used by people throughout the department and State of Ohio. All systems followed a department template and stuck to defined standards.
+    - Researched and recommend technologies for wider adoption among the IT department like transitioning from Team Foundation Version Control to Git.
+    - Lead a team of full-time developers and consultants. Mentored fellow developers and interns, delegate and prioritize tasks, track progress, and reviewed their final products on a daily basis.
+    - Provided customer support to internal users and external customers who consumed Public Safety's online services.
+    - Monitored, troubleshooted, and resolved production issues using department software such as Splunk and AppDynamics.
