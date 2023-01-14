@@ -1,13 +1,10 @@
 title: Justin Adkins
-location: Worthington, OH USA
 about_me: >-
   Fullstack DevOps engineer with years of professional experience.
   Excels at finding concise, elegant solutions to complicated problems.
   Cat dad. Lover of Lord of the Rings, Star Wars, and all things politics.
 baseurl: ""
 url: https://adkins.dev
-emails:
-  - justin@adkins.dev
 networks:
   - name: GitHub
     url: https://github.com
@@ -15,19 +12,6 @@ networks:
   - name: LinkedIn
     url: https://www.linkedin.com/in
     username: jmadkins
-jobs:
-  - position: Senior Software Engineer
-    company: Taskrabbit
-    url: https://www.taskrabbit.com
-  - position: Founder
-    company: Hubble
-    url: https://hubble.vote
-  - position: Founder
-    company: MythCoders
-    url: https://mythcoders.com
-  - position: Executive Director
-    company: Ecclesia
-    url: https://ecclesia.vote
 
 # Build settings
 markdown: kramdown

@@ -1,29 +1,48 @@
-<img src="https://www.gravatar.com/avatar/1e765b9eb6b718df8271f5a900e5c013?s=225" alt="Headshot of Justin" />
-
-<p>{{ site.about_me }}</p>
+<div>
+  <div>
+    <img src="https://www.gravatar.com/avatar/1e765b9eb6b718df8271f5a900e5c013?s=225" alt="Headshot of Justin Adkins" />
+  </div>
+  <div>
+    <p>{{ site.about_me }}</p>
+  </div>
+</div>
 
 <h3>Titles</h3>
-{% for job in site.jobs %}
-  <p>
-    {{ job.position }}
-    <br />
-    <strong>
-      <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
-    </strong>
-  </p>
-{% endfor %}
+<p>
+  Senior Software Engineer
+  <br />
+  <strong>
+    <a href="https://www.taskrabbit.com" target="_blank">Taskrabbit</a>
+  </strong>
+</p>
+<p>
+  Founder
+  <br />
+  <strong>
+    <a href="https://hubble.vote" target="_blank">Hubble</a>
+  </strong>
+  and
+  <strong>
+    <a href="https://mythcoders.com" target="_blank">MythCoders</a>
+  </strong>
+</p>
+<p>
+  Executive Director
+  <br />
+  <strong>
+    <a href="https://ecclesia.vote" target="_blank">Ecclesia</a>
+  </strong>
+</p>
 
 <img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
-{{ site.location }}
+Worthington, OH USA
 
-{% for email in site.emails %}
-  <br />
-  <img src="/assets/icons/envelope_open_sheet-1.png" alt="Email icon">
-  <a href="mailto:{{ email }}"> {{ email }} </a>
-{% endfor %}
+<br />
+<img src="/assets/icons/envelope_open_sheet-1.png" alt="Email icon">
+<a href="mailto:justin@adkins.dev"> justin@adkins.dev</a>
 
 {% for network in site.networks %}
   <br />
-  <img src="/assets/icons/world-5.png" alt="Email icon">
+  <img src="/assets/icons/world-5.png" alt="Website icon">
   <a href="{{ network.url }}/{{ network.username }}" target="_blank">{{ network.name }} > {{ network.username }}</a>
 {% endfor %}

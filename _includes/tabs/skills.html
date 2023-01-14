@@ -1,12 +1,12 @@
-<h3 class="component-heading">Skills</h3>
+<h1 class="component-heading">Skills</h1>
 
-<ul class="list-group">
+<ul>
   {% for skill in site.data.skills %}
-  <li class="list-group-item">
-    <h5 class="text-teal text-uppercase">{{ skill.title }}</h5>
-    <ul class="list-inline">
+  <li>
+    <h3>{{ skill.title }}</h3>
+    <ul>
       {% for item in skill.items %}
-      <li class="list-inline-item">
+      <li>
         {{ item }}
       </li>
       {% endfor %}
