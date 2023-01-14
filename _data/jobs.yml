@@ -7,27 +7,6 @@
   responsibilities:
     - Member of the Payments team working on redesigning and rewriting existing payment code into more maintainable framework.
 
-- company: Hubble
-  location: Worthington, OH USA
-  positions:
-    - title: Founder
-      start: Feb 2020
-      end: Present
-  responsibilities:
-    - <a href='https://hubble.vote'>Hubble</a> is an easy-to-use platform to help political campaigns centralize their voters, contacts, finances, and everything else.
-
-- company: MythCoders
-  location: Worthington, OH USA
-  positions:
-    - title: Founder
-      start: Oct 2017
-      end: Present
-  responsibilities:
-    - One person small business that uses HashiCorp products to provide affordable technical solutions to local governments, businesses, and political candidates.
-    - Utilize infrastructure-as-code to design and maintain multi-environment cloud networks in DigitalOcean and AWS with an n-tier architecture. Secured using latest industry standards. Currently powering five applications with 99.9\% up-time.
-    - Created and open-sourced <a href='https://github.com/mythcoders/hermes'>Hermes</a> to handle logging and routing emails to AWS Simple Email Service.
-    - Built an e-commerce site where customers book seats to in-person workshops and customize the DIY project they'll craft.
-
 - company: Vantage
   location: Remote
   positions:

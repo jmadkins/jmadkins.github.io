@@ -1,44 +1,37 @@
-<div class="card">
-  <h3 class="card-header text-white bg-primary">
-    <img src="assets/icons/note-0.png" alt="generic note icon">
-    {{ job.company }}
-  </h3>
-  <div class="card-body">
-    <ul class="list-inline">
-      <li class="list-inline-item">
-        <img src="/assets/icons/user_computer-0.png" alt="Title Icon">
-        {{ job.positions.last.title }}
-      </li>
-      <li class="list-inline-item">
-        <img src="/assets/icons/calendar-5.png" alt="Calendar icon">
-        {{ job.positions.first.start }} - {{ job.positions.last.end }}
-      </li>
-      <li class="list-inline-item">
-        <img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
-        {{ job.location }}
-      </li>
-    </ul>
-    <h6 class="card-title">
+<div class="c-links-with-details__item">
+  <div class="c-links-with-details__link-wrapper">
+    <h3><strong>{{ job.company }}</strong></h3>
+  </div>
+  <div class="c-links-with-details__details" style="background-color: #ffffff">
+    <img src="/assets/icons/user_computer-0.png" alt="Title Icon">
+    {{ job.positions.last.title }}
+    <br />
+    <img src="/assets/icons/calendar-5.png" alt="Calendar icon">
+    {{ job.positions.first.start }} - {{ job.positions.last.end }}
+    <br />
+    <img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
+    {{ job.location }}
+
+    <h4>
       <strong>Responsibilities</strong>
-    </h6>
+    </h4>
     <ul class="file-list">
       {% for item in job.responsibilities %}
       <li>{{ item }}</li>
       {% endfor %}
     </ul>
+
     {% if job.positions.size > 1 %}
-    <h6 class="card-title">
-      <strong>Position History</strong>
-    </h6>
-    <ul class="history-list">
-      {% for position in job.positions reversed %}
-      <li>
-        {{ position.title }}
-        <br />
-        {{ position.start }} - {{ position.end }}
-      </li>
-      {% endfor %}
-    </ul>
+      <h5>Position History</h5>
+      <ul class="history-list">
+        {% for position in job.positions reversed %}
+        <li>
+          {{ position.title }}
+          <br />
+          {{ position.start }} - {{ position.end }}
+        </li>
+        {% endfor %}
+      </ul>
     {% endif %}
   </div>
 </div>

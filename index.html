@@ -2,39 +2,27 @@
 title: Hello there! &middot; Home
 layout: default
 ---
-<div class="row">
-  <div class="col-12 col-xl-3 col-lg-4 col-md-5 col-sm-6">
-    {% include me/sidebar.html %}
-    <br />
-  </div>
-  <div class="col-12 col-xl-9 col-lg-8 col-md-7 col-sm-6">
-    <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-bottom: 1rem;">
-      <li class="nav-item">
-        <a class="nav-link active text-uppercase" id="job-tab" data-toggle="tab" href="#job" role="tab" aria-controls="job" aria-selected="false">Work History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill" aria-selected="true">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" id="political-tab" data-toggle="tab" href="#political" role="tab" aria-controls="political" aria-selected="false">Political Experience</a>
-      </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="job" role="tabpanel" aria-labelledby="job-tab">
-        {% include tabs/jobs.html %}
-      </div>
-      <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
-        {% include tabs/projects.html %}
-      </div>
-      <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
-        {% include tabs/skills.html %}
-      </div>
-      <div class="tab-pane fade" id="political" role="tabpanel" aria-labelledby="political-tab">
-        {% include tabs/political.html %}
-      </div>
-    </div>
-  </div>
+
+<div data-tabs-target="tab" id="home">
+  {% include tabs/home.html %}
+</div>
+
+<div data-tabs-target="tab" id="work-history" hidden>
+  {% include tabs/jobs.html %}
+</div>
+
+<div data-tabs-target="tab" id="hubble" hidden>
+  {% include tabs/hubble.html %}
+</div>
+
+<div data-tabs-target="tab" id="mythcoders" hidden>
+  {% include tabs/mythcoders.html %}
+</div>
+
+<div data-tabs-target="tab" id="skills" hidden>
+  {% include tabs/skills.html %}
+</div>
+
+<div data-tabs-target="tab" id="politics" hidden>
+  {% include tabs/political.html %}
 </div>
