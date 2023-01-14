@@ -1,37 +1,29 @@
-<div class="card">
-  <div class="card-body">
-    <p class="card-text">{{ site.about_me }}</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item" style="padding-left: 7px">
-      <ul class="business-list">
-        {% for job in site.jobs %}
-        <li>
-          {{ job.position }}
-          <br />
-          <strong>
-            <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
-          </strong>
-        </li>
-        {% endfor %}
-      </ul>
-    </li>
-    <li class="list-group-item">
-      <img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
-      {{ site.location }}
-    </li>
-    {% for email in site.emails %}
-    <li class="list-group-item" style="padding-right: 7px">
-      <img src="/assets/icons/envelope_open_sheet-1.png" alt="Email icon">
-      <a href="mailto:{{ email }}"> {{ email }} </a>
-    </li>
-    {% endfor %} {% for network in site.networks %}
-    <li class="list-group-item">
-      <img src="/assets/icons/world-5.png" alt="Email icon">
-      <a href="{{ network.url }}/{{ network.username }}" target="_blank"
-        >{{ network.name }} > {{ network.username }}</a
-      >
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<img src="https://www.gravatar.com/avatar/1e765b9eb6b718df8271f5a900e5c013?s=225" alt="Headshot of Justin" />
+
+<p>{{ site.about_me }}</p>
+
+<h3>Titles</h3>
+{% for job in site.jobs %}
+  <p>
+    {{ job.position }}
+    <br />
+    <strong>
+      <a href="{{ job.url }}" target="_blank">{{ job.company }}</a>
+    </strong>
+  </p>
+{% endfor %}
+
+<img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
+{{ site.location }}
+
+{% for email in site.emails %}
+  <br />
+  <img src="/assets/icons/envelope_open_sheet-1.png" alt="Email icon">
+  <a href="mailto:{{ email }}"> {{ email }} </a>
+{% endfor %}
+
+{% for network in site.networks %}
+  <br />
+  <img src="/assets/icons/world-5.png" alt="Email icon">
+  <a href="{{ network.url }}/{{ network.username }}" target="_blank">{{ network.name }} > {{ network.username }}</a>
+{% endfor %}

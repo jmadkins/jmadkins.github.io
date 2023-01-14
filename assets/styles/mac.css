@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ChicagoFLF';
+  src: url('/assets/fonts/ChicagoFLF.ttf') format('truetype');
+}
+
 .c-main-header {
   position: relative;
   border-top: 1px solid #ffffff;
@@ -25,7 +30,7 @@
 
 .c-main-header__main-heading {
   margin: 0;
-  font-family: "Geneva", "Geneva", "Helvetica";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 140%;
@@ -45,7 +50,7 @@
 
 .c-main-header__subheading {
   margin-top: 25px;
-  font-family: "Arial", "Geneva", "Helvetica";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 140%;
@@ -156,7 +161,7 @@
   padding: 3px;
   border-top: 1px solid #000;
   background-color: #eee;
-  font-family: "Geneva", "Geneva", "Helvetica";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-weight: Normal;
   font-size: 9px;
   text-align: center;
@@ -197,7 +202,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   background-color: #62629b;
-  font-family: "Geneva", "Geneva", "Arial";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-weight: Normal;
   font-size: 12px;
   color: #7a7a6e;
@@ -225,7 +230,7 @@ h3,
 h4,
 h5 {
   display: block;
-  font-family: "Geneva", "Geneva", "Helvetica";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-weight: 700;
   color: #333;
   letter-spacing: 0;
@@ -233,12 +238,12 @@ h5 {
 }
 
 h1 {
-  font-family: "Geneva", "Geneva", "Helvetica";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-size: 24px
 }
 
 h2 {
-  font-family: "Geneva", "Geneva", "Helvetica";
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-size: 20px
 }
 
@@ -264,7 +269,7 @@ pre {
   margin-top: 12px;
   margin-bottom: 12px;
   color: #333;
-  font-family: 'Monaco';
+  font-family: 'ChicagoFLF', 'Times New Roman', 'Georgia', serif;
   font-weight: 400
 }
 

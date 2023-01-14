@@ -15,9 +15,6 @@ networks:
   - name: LinkedIn
     url: https://www.linkedin.com/in
     username: jmadkins
-  - name: StackOverflow
-    url: https://stackoverflow.com/users/2247108
-    username: justin-adkins
 jobs:
   - position: Senior Software Engineer
     company: Taskrabbit
