@@ -10,13 +10,6 @@
     <link rel="shortcut icon" href="/favicon.ico" type="icon">
     <link rel="stylesheet" href="/assets/styles/mac.css" />
     <script src="https://nsa.adkins.dev/script.js" data-site="YZPGZDFH" defer></script>
-    <script type="module">
-      import { Application, Controller } from "https://unpkg.com/@hotwired/stimulus/dist/stimulus.js"
-      import TabsController from "/assets/scripts/tabs_controller.js"
-      window.Stimulus = Application.start()
-
-      Stimulus.register("tabs", TabsController)
-    </script>
   </head>
   <body>
     <div class="body-wrapper">
@@ -40,40 +33,21 @@
                 </div>
               </div>
             </div>
-            <div class="content-wrapper" data-controller="tabs" data-tabs-default-tab-value="home" data-tabs-active-class="nav-link-active">
+            <div class="content-wrapper">
               <div class="c-navigation">
                 <div class="c-navigation__wrapper">
                   <div class="c-navigation__main">
-                    <div class="nav-button">
-                      <a class="nav-link nav-link-active" id="home" data-tabs-target="btn" data-action="click->tabs#select">
-                        Home
-                      </a>
-                    </div>
-                    <div class="nav-button">
-                      <a class="nav-link" id="work-history" data-tabs-target="btn" data-action="click->tabs#select">
-                        Work History
-                      </a>
-                    </div>
-                    <div class="nav-button">
-                      <a class="nav-link" id="mythcoders" data-tabs-target="btn" data-action="click->tabs#select">
-                        MythCoders
-                      </a>
-                    </div>
-                    <div class="nav-button">
-                      <a class="nav-link" id="hubble" data-tabs-target="btn" data-action="click->tabs#select">
-                        Hubble
-                      </a>
-                    </div>
-                    <div class="nav-button">
-                      <a class="nav-link" id="skills" data-tabs-target="btn" data-action="click->tabs#select">
-                        Skills
-                      </a>
-                    </div>
-                    <div class="nav-button">
-                      <a class="nav-link" id="politics" data-tabs-target="btn" data-action="click->tabs#select">
-                        Electoral Politics
-                      </a>
-                    </div>
+                    {% for navigation in site.data.navigation %}
+                      <div class="nav-button">
+                        {% assign css_class = "nav-link" %}
+                        {% if navigation.text == "Home" and page.url == navigation.url %}
+                          {% assign css_class = 'nav-link nav-link-active' %}
+                        {% elsif navigation.text != "Home" and page.url contains navigation.url %}
+                          {% assign css_class = 'nav-link nav-link-active' %}
+                        {% endif %}
+                        <a href="{{ navigation.url }}" class="{{ css_class }}">{{ navigation.text }}</a>
+                      </div>
+                    {% endfor %}
                   </div>
                 </div>
               </div>

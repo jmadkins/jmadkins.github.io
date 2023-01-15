@@ -3,26 +3,51 @@ title: Hello there! &middot; Home
 layout: default
 ---
 
-<div data-tabs-target="tab" id="home">
-  {% include tabs/home.html %}
+<div>
+  <div>
+    <img src="https://www.gravatar.com/avatar/1e765b9eb6b718df8271f5a900e5c013?s=225" alt="Headshot of Justin Adkins" />
+  </div>
+  <div>
+    <p>{{ site.about_me }}</p>
+  </div>
 </div>
 
-<div data-tabs-target="tab" id="work-history" hidden>
-  {% include tabs/jobs.html %}
-</div>
+<h3>Titles</h3>
+<p>
+  Senior Software Engineer
+  <br />
+  <strong>
+    <a href="https://www.taskrabbit.com" target="_blank">Taskrabbit</a>
+  </strong>
+</p>
+<p>
+  Founder
+  <br />
+  <strong>
+    <a href="https://hubble.vote" target="_blank">Hubble</a>
+  </strong>
+  and
+  <strong>
+    <a href="https://mythcoders.com" target="_blank">MythCoders</a>
+  </strong>
+</p>
+<p>
+  Executive Director
+  <br />
+  <strong>
+    <a href="https://ecclesia.vote" target="_blank">Ecclesia</a>
+  </strong>
+</p>
 
-<div data-tabs-target="tab" id="hubble" hidden>
-  {% include tabs/hubble.html %}
-</div>
+<img src="/assets/icons/entire_network_globe-1.png" alt="World icon">
+Worthington, OH USA
 
-<div data-tabs-target="tab" id="mythcoders" hidden>
-  {% include tabs/mythcoders.html %}
-</div>
+<br />
+<img src="/assets/icons/envelope_open_sheet-1.png" alt="Email icon">
+<a href="mailto:justin@adkins.dev"> justin@adkins.dev</a>
 
-<div data-tabs-target="tab" id="skills" hidden>
-  {% include tabs/skills.html %}
-</div>
-
-<div data-tabs-target="tab" id="politics" hidden>
-  {% include tabs/political.html %}
-</div>
+{% for network in site.networks %}
+<br />
+<img src="/assets/icons/world-5.png" alt="Website icon">
+<a href="{{ network.url }}/{{ network.username }}" target="_blank">{{ network.name }} > {{ network.username }}</a>
+{% endfor %}

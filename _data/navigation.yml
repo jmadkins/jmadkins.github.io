@@ -1,0 +1,17 @@
+- text: Home
+  url: /
+
+- text: Work History
+  url: /work-history
+
+- text: MythCoders
+  url: /mythcoders
+
+- text: Hubble
+  url: /hubble
+
+- text: Skills
+  url: /skills
+
+- text: Electoral Politics
+  url: /politics
