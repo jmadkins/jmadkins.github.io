@@ -4,11 +4,11 @@
 - text: Work History
   url: /work-history
 
-- text: MythCoders
-  url: /mythcoders
-
 - text: Hubble
   url: /hubble
+
+- text: MythCoders
+  url: /mythcoders
 
 - text: Skills
   url: /skills
