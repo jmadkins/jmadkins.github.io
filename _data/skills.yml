@@ -50,3 +50,4 @@
   items:
     - Stripe
     - Braintree
+    - PayPal
