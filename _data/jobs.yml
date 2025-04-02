@@ -5,12 +5,12 @@
       start: September 2022
       end: Present
   responsibilities:
-    - Drove the multi-year modernization of the payment system, leading architectural decisions and aligning technical strategy with evolving business needs. Enabled seamless integrations with external partners through scalable and maintainable solutions.
+    - Worked on a multi-year modernization of the payment system, collaborating on architectural decisions and aligning technical strategy with evolving business needs. Enabled seamless integrations with external partners through scalable and maintainable solutions.
     - Served as the technical lead for multiple initiatives, conducting deep technical research, defining implementation, migration strategies, and ensuring alignment with stakeholders. Established structured roadmaps and led weekly cross-team syncs to drive execution and delivery.
     - Defined and evangelized core software patterns, presenting findings in engineering demos and fostering adoption across teams, improving code maintainability and development efficiency.
     - Optimized team processes, implementing scalable code review queue and standards, along with development best practices that increased team velocity and reduced cycle times.
     - Strengthened team growth and technical excellence by improving onboarding resources, mentoring new hires, and assisting with technical interviews.
-    - Championed engineering best practices, guiding the team in adopting Ruby on Rails best practices and domain-driven design. Collabored with product to introduce Product Requirement Documents (PRDs) and Technical Design Documents (TDDs) as standard processes to improve cross-functional alignment and decision-making
+    - Championed engineering best practices, guiding the team in adopting Ruby on Rails best practices and domain-driven design. Collabored with product to introduce Product Requirement Documents (PRDs) and Technical Design Documents (TDDs) as standard processes to improve cross-functional alignment and decision-making.
 
 - company: Vantage
   location: Remote
@@ -45,7 +45,7 @@
       end: July 2021
   responsibilities:
     - Developed, and optimized scalable Rails applications in a secure microservices environment, ensuring high performance, reliability, and long-term maintainability.
-    - Drove revenue growth by partnering with the analytics team to design and implement data-driven A/B testing strategies, optimizing user engagement and increasing annual recurring revenue (ARR).
+    - Drove revenue growth by partnering with the analytics team to design and implement data-driven A/B testing strategies, optimizing user engagement and increasing annual recurring revenue.
     - Assumed ownership of a large, complex set of features in a PHP codebase, leading refactoring efforts, feature enhancements, and test coverage improvements to ensure long-term maintainability.
     - Identified a critical business logic gap across multiple services, leading to a feature rollout expansion from 4% to 68% of the user base, significantly increasing adoption and impact.
     - Led a risk assessment initiative, uncovering over 50 critical issues across applications and features; collaborated with manager and product to prioritize fixes, reducing risks to fewer than 10 and improving system reliability.
@@ -73,4 +73,4 @@
     - Led a cross-functional development team of full-time engineers and consultants, working under the direction of leadership to triage and resolve critical technical challenges.
     - Provided technical leadership and mentorship, guiding developers and interns through task delegation, priority management, and daily progress reviews, ensuring high-quality deliverables and professional growth.
     - Drove technology adoption across the IT department, researching and recommending new tools and frameworks to improve development efficiency and scalability.
-    - Provided strategic technical support and guidance for Public Safety’s online services, ensuring system reliability.
+    - Provided strategic technical support and guidance for Public Safety's online services, ensuring system reliability.
