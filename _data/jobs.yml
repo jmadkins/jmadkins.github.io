@@ -1,9 +1,18 @@
+- company: Kin Insurnace
+  location: Remote
+  positions:
+    - title: Senior Software Engineer
+      start: May 2025
+      end: Present
+  responsibilities:
+    - Member of the Policy Accounting And Claims Support (PAACS) Team.
+
 - company: Taskrabbit
   location: Remote
   positions:
     - title: Senior Software Engineer
       start: September 2022
-      end: Present
+      end: May 2025
   responsibilities:
     - Worked on a multi-year modernization of the payment system, collaborating on architectural decisions and aligning technical strategy with evolving business needs. Enabled seamless integrations with external partners through scalable and maintainable solutions.
     - Served as the technical lead for multiple initiatives, conducting deep technical research, defining implementation, migration strategies, and ensuring alignment with stakeholders. Established structured roadmaps and led weekly cross-team syncs to drive execution and delivery.
