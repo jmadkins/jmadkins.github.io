@@ -5,7 +5,20 @@
       start: May 2025
       end: Present
   responsibilities:
-    - Member of the Policy Accounting And Claims Support (PAACS) Team.
+    - Helped implement and maintain system solutions for policy administration, managing technical operations from post-bind processing through policy termination workflows.
+    - Built a secure adapter library bridging third-party grid component with backend query systems, dramatically reducing dashboard creation time while enabling users to generate sophisticated queries through an intuitive interface.
+
+- company: Sharon Township
+  location: Onsite
+  positions:
+    - title: Fiscal Officer
+      start: November 2025
+      end: Present
+  responsibilities:
+    - Appointed by the Sharon Township Board of Trustees to oversee financial operations and ensure fiscal accountability for a $5 million municipal budget serving the Sharon Township community.
+    - Ensure expenditures comply with legal requirements and trustee appropriations while implementing comprehensive fiscal controls and maintaining strict adherence to Ohio Revised Code requirements.
+    - Serve as custodian of current and historical township records, maintaining accurate documentation of all municipal accounts, transactions, and financial activities.
+    - Execute warrant issuance, payroll preparation and processing, tax reporting, and deposit management while ensuring timely compliance with state and local reporting requirements.
 
 - company: Taskrabbit
   location: Remote
