@@ -1,6 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
-/node_modules
-/tmp
-/config/master.key
+/.kamal
+.DS_Store

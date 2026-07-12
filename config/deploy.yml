@@ -1,0 +1,22 @@
+service: adkins
+image: jmadkins/website
+servers:
+  - 5.161.19.187
+env:
+  secret:
+    - GIT_URL
+registry:
+  server: ghcr.io
+  username:
+    - KAMAL_REGISTRY_USERNAME
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+proxy:
+  host: adkins.dev,www.adkins.dev
+  ssl: true
+  healthcheck:
+    path: /up
+    interval: 2
+    timeout: 2
+builder:
+  arch: amd64

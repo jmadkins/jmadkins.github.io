@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--# set var="title" value="MythCoders" -->
+<!--# set var="nav" value="mythcoders" -->
+<!--# include file="/_includes/head.html" -->
+
+<body>
+    <!--# include file="/_includes/header.html" -->
+    <main class="site-main">
+        <p class="prompt">cat mythcoders.md</p>
+        <h1>MythCoders</h1>
+
+        <div class="page-lede">
+            <a href="https://mythcoders.com/">
+                <img class="page-logo" src="/assets/images/mythcoders-logo.webp" alt="MythCoders logo">
+            </a>
+            <div>
+                <p>Founded in October 2017. My work and work done on behalf of clients are all done under the name <a
+                        href="https://mythcoders.com/">MythCoders</a>.</p>
+                <p>Use HashiCorp products to provide affordable technical solutions to local governments, businesses,
+                    and political candidates.</p>
+                <p>Utilize infrastructure-as-code to design and maintain multi-environment cloud networks in
+                    DigitalOcean and AWS with an n-tier architecture. Secured using latest industry standards.</p>
+                <p>At the largest point we powered six applications with 99.9% up-time.</p>
+            </div>
+        </div>
+
+        <h2>Projects</h2>
+
+        <div class="card-stack">
+            <div class="card">
+                <h3><a href="/hubble">Hubble</a></h3>
+                <dl class="meta">
+                    <dt>status</dt>
+                    <dd>Closed Source</dd>
+                </dl>
+                <p>
+                    An easy-to-use platform that helps political campaigns centralize their voters, contacts, finances,
+                    and everything else.
+                </p>
+                <p>
+                    Started in 2019 as the database behind my campaign website and now MythCoders' flagship product.
+                    See the <a href="/hubble">Hubble page</a> for feature highlights.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3><a href="http://github.com/mythcoders/hermes">Hermes</a></h3>
+                <dl class="meta">
+                    <dt>status</dt>
+                    <dd>Open Source</dd>
+                </dl>
+                <p>
+                    Rails API for logging emails and then sending them to AWS Simple Email Service for delivery.
+                    Supports multiple API clients and tracking emails sent by each client.
+                </p>
+                <p>
+                    I created it for use at MythCoders but it's a great tool for any person/org that needs to log emails
+                    before sending them to AWS.
+                </p>
+            </div>
+        </div>
+    </main>
+    <!--# include file="/_includes/footer.html" -->
+</body>
+
+</html>

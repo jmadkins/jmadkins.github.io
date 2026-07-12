@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--# set var="title" value="Hubble" -->
+  <!--# set var="nav" value="hubble" -->
+  <!--# include file="/_includes/head.html" -->
+  <body>
+    <!--# include file="/_includes/header.html" -->
+    <main class="site-main">
+      <p class="prompt">cat hubble.md</p>
+      <h1>Hubble</h1>
+
+      <div class="page-lede">
+        <a href="https://hubble.vote">
+          <picture>
+            <source srcset="https://cdn.hubble.vote/branding/mono-light/logo.png" media="(prefers-color-scheme: dark)">
+            <img class="page-logo" src="https://cdn.hubble.vote/branding/mono-dark/logo.png" alt="Hubble logo">
+          </picture>
+        </a>
+        <div>
+          <p><a href="https://hubble.vote">Hubble</a> is an easy-to-use platform to help political campaigns centralize their voters, contacts, finances, and everything else.</p>
+          <p>Started in 2019 as the database my campaign website used to store form submissions. Hubble grew into a powerhouse after a friends congressional campaign implemented it.</p>
+        </div>
+      </div>
+
+      <h2>Feature Highlights</h2>
+      <div class="card-stack">
+        <div class="card">
+          <h3>Data Load &amp; Transformation Pipeline</h3>
+          <p>Custom ETL pipeline for ingesting state voter files and third-party data sources. Configurable per-source field mappings drive transformation and normalization into the canonical schema, and imports are designed to be re-runnable, so refreshed voter rolls update existing records instead of creating duplicates.</p>
+        </div>
+        <div class="card">
+          <h3>Unified Person Data Model</h3>
+          <p>Person, contact, and voter records are modeled around a single canonical identity with entity resolution at ingest. The schema supports voter data from multiple states, deduplicates across data sources, and enables shared records, so a canvass response, a donation, and a voter file row all resolve to the same person in every module.</p>
+        </div>
+        <div class="card">
+          <h3>Turf Cutting &amp; Mobile Canvassing</h3>
+          <p>Geospatial turf cutting partitions voter households into walkable turfs from map polygons, synced to a native iOS companion app built for offline-tolerant field work. Canvass responses flow back into the voter record.</p>
+        </div>
+        <div class="card">
+          <h3>Fundraising &amp; Compliance</h3>
+          <p>Contribution and expenditure ledger modeled around campaign finance law: itemization thresholds, donor attribution, and report generation that maps directly to what a treasurer files. Bookkeeping rigor without requiring an accountant.</p>
+        </div>
+        <div class="card">
+          <h3>Communications</h3>
+          <p>Multi-channel outreach engine spanning call time queues, drag-and-drop email composition, and texting. Built on background job processing for high-volume sends, with every touch written back to the person's activity timeline.</p>
+        </div>
+        <div class="card">
+          <h3>Community Hub</h3>
+          <p>Built-in campaign website with content publishing, public forms, and support for serving each campaign's site on its own custom domain. Submissions are captured through the same pipeline as every other data source and resolved into the campaign's contact records automatically.</p>
+        </div>
+        <div class="card">
+          <h3>Volunteer Management</h3>
+          <p>Volunteer scheduling and coordination modeled as first-class domain objects tied to events, canvasses, and call time. One shared data model from recruitment through the doors knocked.</p>
+        </div>
+      </div>
+    </main>
+    <!--# include file="/_includes/footer.html" -->
+  </body>
+</html>
